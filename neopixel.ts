@@ -39,7 +39,7 @@ enum NeoPixelMode {
 /**
  * Functions to operate NeoPixel strips.
  */
-//% weight=5 color=#2699BF icon="\uf110"
+//% weight=5 color=#2699BF icon="\u1f4a1"
 namespace neopixel {
     //% shim=sendBufferAsm
     function sendBuffer(buf: Buffer, pin: DigitalPin) {
@@ -146,7 +146,7 @@ namespace neopixel {
          */
         //% weight=84
         //% blockId=neopixel_show_bar_graph block="%strip|show bar graph of %value|up to %high" 
-        //% icon="\uf080"
+        //% icon="\u1f4a1"
         //% parts="neopixel"
         showBarGraph(value: number, high: number): void {
             if (high <= 0) {

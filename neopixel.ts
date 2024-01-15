@@ -39,7 +39,7 @@ enum NeoPixelMode {
 /**
  * Functions to operate NeoPixel strips.
  */
-//% weight=5 color=#2699BF icon="\uf0eb"
+//% weight=5 color=#2699BF icon="\u1f4a1"
 namespace neopixel {
     //% shim=sendBufferAsm
     function sendBuffer(buf: Buffer, pin: DigitalPin) {
@@ -141,12 +141,12 @@ namespace neopixel {
         /**
          * Displays a vertical bar graph based on the `value` and `high` value.
          * If `high` is 0, the chart gets adjusted automatically.
-         * @param value current value to plot  
+         * @param value current value to plot
          * @param high maximum value, eg: 255
          */
         //% weight=84
         //% blockId=neopixel_show_bar_graph block="%strip|show bar graph of %value|up to %high" 
-        //% icon="\uf0eb"
+        //% icon="\u1f4a1"
         //% parts="neopixel"
         showBarGraph(value: number, high: number): void {
             if (high <= 0) {
